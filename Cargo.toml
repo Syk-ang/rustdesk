@@ -245,3 +245,6 @@ panic = 'abort'
 strip = true
 #opt-level = 'z' # only have smaller size after strip
 rpath = true
+
+[patch.crates-io]
+hbb_common = { git = "https://github.com/Syk-ang/hbb_common.git", branch = "main" }
